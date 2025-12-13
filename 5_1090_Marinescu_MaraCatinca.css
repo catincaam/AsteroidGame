@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('media/galaxy.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+canvas {
+    display: none; /* ascuns până la start */
+    border: 2px solid rgba(255,255,255,0.3);
+    box-shadow: 0 0 15px rgba(255,255,255,0.3);
+}
+
+#startBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(45deg, #ff6ec4, #7873f5);
+    border: none;
+    border-radius: 20px;
+    padding: 18px 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+}
+
+#startBtn:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+    box-shadow: 0 0 40px rgba(255,110,196,0.7), 0 0 60px rgba(120,115,245,0.5);
+    background: linear-gradient(45deg, #7873f5, #ff6ec4);
+}
+
+@media (max-width: 768px) {
+    #startBtn {
+        font-size: 24px;
+        padding: 14px 40px;
+    }
+}
