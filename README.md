@@ -42,8 +42,6 @@ The game requires attention and quick reactions, as the player must avoid danger
 
 The spaceship can be controlled by the player using keyboard input.
 
-![Player Movement](media/screenshots/player-movement.png)
-
 This part of the project highlights event handling and real-time movement using JavaScript.
 
 ---
@@ -52,8 +50,6 @@ This part of the project highlights event handling and real-time movement using 
 
 Asteroids appear in the game area and create the main challenge for the player.
 
-![Asteroids](media/screenshots/asteroids.png)
-
 The movement and positioning of obstacles make the game more dynamic and interactive.
 
 ---
@@ -61,8 +57,6 @@ The movement and positioning of obstacles make the game more dynamic and interac
 ### Collision Detection
 
 The game includes collision detection logic, which determines when the player interacts with an asteroid or obstacle.
-
-![Collision Detection](media/screenshots/collision.png)
 
 This feature is essential for the gameplay, because it connects the visual movement of objects with the game rules.
 
